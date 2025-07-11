@@ -14,14 +14,13 @@ export default function BrowseTools() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {browseToolsData.map((tool) => (
           <div key={tool.id} className="flex flex-col space-y-3">
-            {/* Card with border */}
+            
             <div className="border border-[#D10800] rounded-md p-4 bg-[#0A0A0A] h-[170px] flex items-center justify-center relative">
-              {/* Badge */}
+              
               <div className="absolute top-2 left-2 bg-[#D10800] text-white text-xs px-2 py-1 rounded font-medium">
                 {tool.badge}
               </div>
  
-              {/* Image */}
               <div className=''>
                 
                 <Image

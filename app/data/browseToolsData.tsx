@@ -26,8 +26,8 @@ export const browseToolsData: ToolType[] = [
     image: "/explorer.png",
     badge: "Trending · Launched 1 month ago",
     subheading: "A free-to-use AI system for conversations, insights, and task automation.",
-    imageWidth: 147,
-    imageHeight: 126,
+    imageWidth: 120,
+    imageHeight: 120,
   },
   {
     id: 3,

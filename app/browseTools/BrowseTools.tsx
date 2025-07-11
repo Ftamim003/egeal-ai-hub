@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function BrowseTools() {
   return (
     <div className='bg-black text-white'>
-        <div className='md:w-[731px] mx-auto md:h-6 md:text-[35px] flex justify-center md:pt-[84px] md:mb-[120px]'>
-            <h1>Browse Tools That Are Exploring Right Now</h1>
+        <div className='w-[290px] pt-5 md:w-[731px] mx-auto md:h-6 text-2xl md:text-[35px] flex justify-center md:pt-[84px] md:mb-[120px]'>
+            <h1 className='text-center'>Browse Tools That Are Exploring Right Now</h1>
         </div>
 
         <div className=" px-4 py-10">

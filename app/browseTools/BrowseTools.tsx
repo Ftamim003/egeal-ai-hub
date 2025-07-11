@@ -20,7 +20,7 @@ export default function BrowseTools() {
               <div className="absolute top-2 left-2 bg-[#D10800] text-white text-xs px-2 py-1 rounded font-medium">
                 {tool.badge}
               </div>
-
+ 
               {/* Image */}
               <div className=''>
                 
@@ -35,10 +35,9 @@ export default function BrowseTools() {
               </div>
             </div>
 
-            {/* Tool name */}
+            
             <h3 className="text-lg font-semibold">{tool.name}</h3>
 
-            {/* Subheading */}
             <p className="text-sm text-gray-300">{tool.subheading}</p>
           </div>
         ))}

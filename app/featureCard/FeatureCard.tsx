@@ -22,7 +22,7 @@ export default function FeatureCard() {
   />
 
   <div className="p-4 text-white flex flex-col  items-center">
-    <h2 className="text-xl font-bold mb-2">{item.title}</h2>
+    <h2 className="text-xl text-center font-bold mb-2">{item.title}</h2>
 
     <ul className="text-[16px] mt-2 text-[#FFFFFF]  space-y-1">
       {item.description.map((point, index) => (

@@ -17,7 +17,7 @@ export default function TrendingAi() {
               className="border border-[#D10800] rounded-md bg-[#0A0A0A] overflow-hidden relative md:max-w-[360px] "
             >
               <div className="relative  h-[255px] flex justify-center items-center ">
-                <span className="absolute top-2 left-2 bg-[#D10800] text-white text-xs font-medium px-2 py-1 rounded">
+                <span className="absolute w-[77px] h-[26px] top-2 left-2 bg-[#D10800] text-center text-white text-xs font-medium px-2 py-1 rounded-md">
                   {card.badge}
                 </span>
 

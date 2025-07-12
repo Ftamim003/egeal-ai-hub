@@ -1,6 +1,7 @@
 import React from 'react'
-import { browseToolsData } from '../data/browseToolsData'
+
 import Image from 'next/image'
+import { browseToolsData } from './browseToolsData'
 
 export default function BrowseTools() {
   return (

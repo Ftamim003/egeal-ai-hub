@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import { topGainersData } from '../data/topGainersData'
+import { topGainersData } from './topGainersData'
+
 
 export default function TopGainers() {
   return (

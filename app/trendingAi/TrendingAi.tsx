@@ -28,7 +28,7 @@ export default function TrendingAi() {
                 <div className="absolute bottom-0 left-0 w-[500px] h-[1px] bg-[#D10800]" />
               </div>
 
-              <div className="p-4 text-start space-y-2 h-[104px]">
+              <div className="px-4 pt-5 text-start space-y-2 h-[104px]">
                 <p className="text-sm leading-4 text-[#CCCCCC]">{card.intro}</p>
                 <h3 className="text-xl leading-3.5 font-semibold">{card.title}</h3>
                 <p className="text-sm leading-4 text-[#AAAAAA]">{card.description}</p>

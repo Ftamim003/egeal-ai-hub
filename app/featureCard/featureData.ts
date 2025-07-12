@@ -40,8 +40,8 @@ export const featureData: FeatureType[] = [
     id: 4,
     title: "Multi Language Support",
     description: [
-      "Supports English, Spanish, French, and more",
-      "Auto-detects browser language",
+      "Add Swedish, Arabic, Spanish",
+      "Based on Location or Button",
     ],
     image: "/coinImage.png",
   },

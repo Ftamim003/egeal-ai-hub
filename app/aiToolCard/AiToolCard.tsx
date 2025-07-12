@@ -23,7 +23,7 @@ export default function AiToolCard() {
           </div>
           <div className="p-4 text-white flex flex-col justify-between items-center text-center">
             <div className='w-[282px] h-[95px] mb-6'>
-              <h2 className="text-[23px]  font-bold mb-2">{item.title}</h2>
+              <h2 className="text-[18px] md:text-[23px]  font-bold mb-2">{item.title}</h2>
             <p className="text-[16px] text-[#FFFFFF] mt-2">{item.description}</p>
             </div>
           </div>

@@ -43,7 +43,7 @@ const giveaways: Giveaway[] = [
 export default function GiveAways() {
   return (
     <div className=" bg-black text-white flex justify-around">
-      <div className="grid grid-cols-1 md:grid-cols-2 space-x-10 mt-8 mb-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-38 mt-8 mb-8 ">
         {giveaways.map(({ id, title, details }) => (
           <div key={id} className="bg-[#0D0D0D] p-6 flex md:flex-col">
             <div className="rounded-lg ">
